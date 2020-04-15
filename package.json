@@ -1,0 +1,15 @@
+{
+  "name": "riot-trimStart-bug",
+  "version": "1.0.0",
+  "description": "Demonstration of the bug involving String.prototype.trimStart",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@riotjs/cli": "^4.0.3",
+    "riot": "^4.12.0"
+  }
+}
