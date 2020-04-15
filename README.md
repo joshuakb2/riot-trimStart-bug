@@ -6,7 +6,7 @@ This repository serves to demonstrate the Riot bug where String.prototype.trimSt
 
 1. Clone the repository: `git clone https://github.com/joshuakb2/riot-trimStart-bug.git && cd riot-trimStart-bug`
 2. Install packages: `npm ci`
-3. Run the riot compiler: `./node_modules/.bin/riot example.riot`
+3. Run the riot compiler: `npm run build`
 4. Observe the error:
 ```
 (node:27164) UnhandledPromiseRejectionWarning: TypeError: string.trimStart is not a function

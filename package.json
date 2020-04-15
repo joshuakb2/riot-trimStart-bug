@@ -4,12 +4,13 @@
   "description": "Demonstration of the bug involving String.prototype.trimStart",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "PATH=\"$(pwd)/node_modules/.bin:$PATH\" ./node_modules/.bin/riot example.riot"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@riotjs/cli": "^4.0.3",
+    "node": "^8.17.0",
     "riot": "^4.12.0"
   }
 }
