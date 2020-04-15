@@ -4,7 +4,8 @@
   "description": "Demonstration of the bug involving String.prototype.trimStart",
   "main": "",
   "scripts": {
-    "build": "PATH=\"$(pwd)/node_modules/.bin:$PATH\" ./node_modules/.bin/riot example.riot"
+    "build": "PATH=\"$(pwd)/node_modules/.bin:$PATH\" ./node_modules/.bin/riot example.riot",
+    "fix": "perl -pi -e 's/trimStart/trimLeft/g' node_modules/@riotjs/compiler/dist/{compiler.js,index.js} && perl -pi -e 's/trimEnd/trimRight/g' node_modules/@riotjs/compiler/dist/{compiler.js,index.js}"
   },
   "author": "",
   "license": "ISC",
